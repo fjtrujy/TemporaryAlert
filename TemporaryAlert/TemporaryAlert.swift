@@ -35,11 +35,11 @@ import UIKit
 /// Customize your alerts modifying the variables in `TemporaryAlert.Configuration`, including fonts, colors and the alerts life span.
 public struct TemporaryAlert {
     
-    enum AlertImage {
+    public enum AlertImage {
         case checkmark, cross, custom(UIView)
     }
     
-    enum Configuration {
+    public enum Configuration {
         /// The color used to draw the default alert images. This does not apply if you provide a custom image.
         ///
         /// By default this is the same as `titleColor`.
@@ -63,7 +63,7 @@ public struct TemporaryAlert {
     /// Shows an alert with the specified image, title and message.
     ///
     /// If you want to change the alert life span or customize the alert appearance use the variables in `TemporaryAlert.Configuration`.
-    static func show(image: AlertImage?, title: String, message: String?) {
+    public static func show(image: AlertImage?, title: String, message: String?) {
         window = alertWindow()
         let vc = TemporaryAlertViewController(image: image, title: title, message: message)
         window?.rootViewController = vc
