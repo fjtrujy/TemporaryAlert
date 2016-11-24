@@ -2,8 +2,9 @@
 Temporary alerts similar to those in Apple's Music app.
 
 ## Features:
-* Easy to use
-* Customizable appearance and behavior
+* Temporary and unobstrusive alerts.
+* Super-simple API.
+* Customizable appearance and behavior.
 * Built-in cross and checkmark images, the latter with a nice animation.
 
 ## Usage
