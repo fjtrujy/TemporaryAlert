@@ -22,6 +22,7 @@ TemporaryAlert.Configuration.titleColor = .red
 
 ## Example
 
+<img src="https://raw.githubusercontent.com/daniel-barros/TemporaryAlert/assets/video.gif" width="320px" height="568px" />
 <img src="https://raw.githubusercontent.com/daniel-barros/TemporaryAlert/assets/image.png" width="320px" height="568px" />
 
 ## Installation
