@@ -59,3 +59,12 @@ $ pod install
 ### Manually
 
 Drag the whole project into your workspace, build it, and add the framework to the Embedded Binaries of your project.
+
+## Known issues
+
+Xcode might generate a warning like this:
+```bash
+<UIVisualEffectView 0x0123456789> is being asked to animate its opacity. This will cause the effect to appear broken until opacity returns to 1.
+```
+However, you can safely ignore it. The result is as expected.
+Anyone with a fix is welcome to create a pull request =).
