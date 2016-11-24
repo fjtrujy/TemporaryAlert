@@ -43,18 +43,18 @@ public struct TemporaryAlert {
         /// The color used to draw the default alert images. This does not apply if you provide a custom image.
         ///
         /// By default this is the same as `titleColor`.
-        static var imageColor = #colorLiteral(red: 0.3450980392, green: 0.3450980392, blue: 0.3450980392, alpha: 1)
-        static var backgroundColor = #colorLiteral(red: 0.9529411765, green: 0.9529411765, blue: 0.9529411765, alpha: 0.8)
-        static var titleColor = #colorLiteral(red: 0.3450980392, green: 0.3450980392, blue: 0.3450980392, alpha: 1)
-        static var messageColor = #colorLiteral(red: 0.6274509804, green: 0.6274509804, blue: 0.6274509804, alpha: 1)
-        static var titleFont = UIFont.systemFont(ofSize: 22, weight: UIFontWeightSemibold)
-        static var messageFont = UIFont.systemFont(ofSize: 16, weight: UIFontWeightSemibold)
+        public static var imageColor = #colorLiteral(red: 0.3450980392, green: 0.3450980392, blue: 0.3450980392, alpha: 1)
+        public static var backgroundColor = #colorLiteral(red: 0.9529411765, green: 0.9529411765, blue: 0.9529411765, alpha: 0.8)
+        public static var titleColor = #colorLiteral(red: 0.3450980392, green: 0.3450980392, blue: 0.3450980392, alpha: 1)
+        public static var messageColor = #colorLiteral(red: 0.6274509804, green: 0.6274509804, blue: 0.6274509804, alpha: 1)
+        public static var titleFont = UIFont.systemFont(ofSize: 22, weight: UIFontWeightSemibold)
+        public static var messageFont = UIFont.systemFont(ofSize: 16, weight: UIFontWeightSemibold)
         /// The number of seconds alerts are visible.
-        static var lifeSpan: Double = 1.5
+        public static var lifeSpan: Double = 1.5
         /// If `true` the checkmark image animates when the alert is shown. This does not apply if you choose a different image.
         ///
         /// The default value is `true`.
-        static var animatesCheckmark = true
+        public static var animatesCheckmark = true
     }
     
     // An independent window makes sure the alert is shown above everything else.
