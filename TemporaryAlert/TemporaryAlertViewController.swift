@@ -56,7 +56,7 @@ internal class TemporaryAlertViewController: UIViewController {
         alertView.frame.origin.x = view.frame.width / 2 - alertView.frame.width / 2
         alertView.frame.origin.y = view.frame.height / 2 - alertView.frame.height / 2
         alertView.alpha = 0
-        imageLayer?.isHidden = true
+        imageLayer?.isHidden = animatesImage
     }
     
     
