@@ -70,8 +70,8 @@ public struct TemporaryAlert {
         DispatchQueue.main.async {
             vc.showAlertView()
         }
-        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + Configuration.lifeSpan) {
-            vc.hideAlertView(completion: { _ in
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + Configuration.lifeSpan) { [weak vc] in
+            vc?.hideAlertView(completion: { _ in
                 window = nil
             })
         }
