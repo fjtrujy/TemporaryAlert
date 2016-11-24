@@ -19,6 +19,10 @@ TemporaryAlert.Configuration.lifeSpan = 2
 TemporaryAlert.Configuration.titleColor = .red
 ```
 
+## Example
+
+<img src="https://raw.githubusercontent.com/daniel-barros/TemporaryAlert/assets/image.png" width="320px" height="568px" />
+
 ## Installation
 
 ### CocoaPods
