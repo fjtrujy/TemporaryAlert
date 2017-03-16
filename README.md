@@ -1,7 +1,7 @@
 # TemporaryAlert
 Temporary alerts similar to those in Apple's Music app.
 
-## Features:
+## Features:
 * Temporary and unobstrusive alerts.
 * Super-simple API.
 * Customizable appearance and behavior.
