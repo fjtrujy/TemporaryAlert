@@ -36,7 +36,7 @@ internal extension UIFont {
     func sizeOfString(string: String, withMaximumWidth maxWidth: CGFloat, maximumNumberOfLines: Int = 0) -> CGSize {
         
         func stringBoundingRect(string: String, size: CGSize) -> CGRect {
-            return (string as NSString).boundingRect(with: size, options: .usesLineFragmentOrigin, attributes: [NSFontAttributeName: self], context: nil)
+            return (string as NSString).boundingRect(with: size, options: .usesLineFragmentOrigin, attributes: [.font: self], context: nil)
         }
         
         let rect: CGRect

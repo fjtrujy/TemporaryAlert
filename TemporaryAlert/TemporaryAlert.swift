@@ -47,8 +47,8 @@ public struct TemporaryAlert {
         public static var backgroundColor = #colorLiteral(red: 0.9529411765, green: 0.9529411765, blue: 0.9529411765, alpha: 0.8)
         public static var titleColor = #colorLiteral(red: 0.3450980392, green: 0.3450980392, blue: 0.3450980392, alpha: 1)
         public static var messageColor = #colorLiteral(red: 0.6274509804, green: 0.6274509804, blue: 0.6274509804, alpha: 1)
-        public static var titleFont = UIFont.systemFont(ofSize: 22, weight: UIFontWeightSemibold)
-        public static var messageFont = UIFont.systemFont(ofSize: 16, weight: UIFontWeightSemibold)
+        public static var titleFont = UIFont.systemFont(ofSize: 22, weight: .semibold)
+        public static var messageFont = UIFont.systemFont(ofSize: 16, weight: .semibold)
         /// The number of seconds alerts are visible.
         public static var lifeSpan: Double = 1.5
         /// If `true` the checkmark image animates when the alert is shown. This does not apply if you choose a different image.
