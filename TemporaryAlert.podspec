@@ -8,6 +8,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/daniel-barros/TemporaryAlert.git", :tag => s.version }
 
   s.ios.deployment_target = "9.0"
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
   s.source_files  = "TemporaryAlert/**/*.{h,swift}"
   s.requires_arc = true
 end
